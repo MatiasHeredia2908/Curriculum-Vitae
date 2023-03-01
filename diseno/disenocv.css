@@ -1,9 +1,9 @@
 * {
-    background-color: whitesmoke;
+    background-color:whitesmoke;
     box-sizing: border-box;
 }
 
-#cv {
+#titulo_doc {
     text-align: center;
 }
 
@@ -19,15 +19,76 @@
     text-align: center;
 }
 
-#tr_educativo {
-    width: 75%;
-}
-
-#exp_laborales {
-    width: 50%;
-}
-
 .titulo {
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Labrada', serif;
+}
+
+#tr_educativo {
+    width: 33.3%;
+    float: left;
+    border: solid; border-right: none;
+    text-align: center;
+    display: none;
+}
+
+#exp_laborales {
+    width: 33.3%;
+    float: left;
+    border: solid;
+    text-align: center;
+    display: none;
+}
+
+#habilidades {
+    width: 33.3%;
+    float: left;
+    border: solid; border-left: none;
+    text-align: center;
+    display: none;
+}
+
+#ver_inf, #ver_contacto {
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: black;
+}
+
+#ocultar_inf, #ocultar_contacto {
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: black;
+    visibility: hidden;
+
+}
+
+#inf_contacto {
+    margin-left: 33.3%;
+    margin-right: 33.3%;
+    text-align: center;
+    color: black;
+    visibility: hidden;
+}
+
+#ver_contacto, #ocultar_contacto {
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
 }
