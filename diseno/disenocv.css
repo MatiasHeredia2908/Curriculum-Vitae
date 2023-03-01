@@ -1,0 +1,33 @@
+* {
+    background-color: whitesmoke;
+    box-sizing: border-box;
+}
+
+#cv {
+    text-align: center;
+}
+
+#foto_carnet {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+}
+
+#inf_personal {
+    text-align: center;
+}
+
+#tr_educativo {
+    width: 75%;
+}
+
+#exp_laborales {
+    width: 50%;
+}
+
+.titulo {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Labrada', serif;
+}
